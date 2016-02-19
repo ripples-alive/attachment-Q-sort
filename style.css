@@ -1,0 +1,108 @@
+body {
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    padding: 10px 0;
+    background-color: lightblue;
+}
+
+
+.description {
+    /*height: 70%;*/
+    /*width : 100%*/
+}
+
+.right {
+    background-color: lightgreen;
+    width: 100%;
+    text-align: left;
+    /*float: right;*/
+}
+
+.next {
+  /*float: left;*/
+  /*clear: both;*/
+  margin: 20px auto;
+  height: 40px;
+  width: 150px;
+}
+
+.left {
+    background-color: grey;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.bucket_container {
+    display: block;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.bucket_container > label {
+    display: inline-block;
+    margin: 10px 50px;
+}
+
+.bucket_container > radio {
+    margin-right: 10px;
+}
+
+.card {
+    position: relative;
+    background-color: lightyellow;
+    width: 12.5%;
+    height: 200px;
+    float: left;
+    margin: 1% 1%;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.triple_chooses {
+    position: absolute;
+    top: 35px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.double_chooses {
+    position: absolute;
+    top: 80px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.choose {
+    background-color: lightblue;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0;
+    padding: 10px;
+    float: left;
+    clear: left;
+}
+
+.triple_chooses > .choose:first-child {
+    margin: 0 35px 30px;
+}
+
+.triple_chooses > .choose:last-child {
+    margin-left: 20px;
+    clear: none;
+}
+
+.double_chooses > .choose:last-child {
+    margin-left: 20px;
+    clear: none;
+}
